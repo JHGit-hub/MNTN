@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/police.css">
+        <link rel="stylesheet" href="assets/css/row.css">
+        <title>MNTN</title>
+    </head>
+    <body>
+        <header>
+            <div class="row"  id="Start">
+                <div class="column-1">
+                    <div class="logo">
+                        <img src="assets/images/logo.png" alt="Logo of the website">                         
+                    </div>
+                </div>
+                <div class="column-2 ">
+                    <div class="navbar"> <!-- je n'ai pas reussi a aligner en hauteur la nav par rapport aux autres elements du header -->
+                        <nav>
+                            <ul>
+                                <li><a href="#" title="link to ours equipements" target="_blank">Equipement</a></li>
+                                <li><a href="#" title="link to a page about us" target="_blank">About Us</a></li>
+                                <li><a href="#" title="link to the Blog" target="_blank">Blog</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="column-3">
+                    <div class="CTA">
+                        <div class="picto">
+                            <img src="assets/icones/cart.png">
+                        </div>
+                        <div class="login">
+                            <p>Account</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section-banner">
+                <div class="banner">
+                    <div class="rotated"> <!-- j'ai creer la div vertical en absolute pour mieux la placer -->
+                        <p>Follow us</p>
+                    </div>
+                    <div class="social">
+                        <div class="instagram">
+                            <a href="#" title="instagram" target="_blank"><img src="assets/icones/instagram.png" alt="link to instagram page"></a>
+                        </div>
+                        <div class="twitter">
+                            <a href="#" title="twitter" target="_blank"><img src="assets/icones/twitter.png" alt="link to twitter page"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container-banner">
+                            <div class="row-1">
+                                <div class="stroke"> <!-- j'ai integrer la ligne comme une image -->
+                                    <img src="assets/icones/stroke.png" alt="yellow horizontal stroke">
+                                </div>
+                                <h3>a hiking guide</h3>
+                            </div>
+                            <div class="row-2">
+                                <h1>be prepare for the<span>mountains and beyond!</span></h1> <!-- utilisation de span pour forcer le saut de ligne -->
+                            </div>
+                            <div class="row-3">
+                                <div class="backtobottom">
+                                    <a href="#backtobottom" title="go to article page">scroll down<img src="assets/icones/arrow-white.png" alt="white arrow to bottom"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="anchor"> <!-- creation des anchres mais je n'ai pas compris comment fonctionnait la barre de defilement -->
+                        <nav>
+                            <ul>
+                                <li><a href="#Start">Start</a></li>
+                                <li><a href="#article-1">01</a></li>
+                                <li><a href="#article-2">02</a></li>
+                                <li><a href="#article-3">03</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="gradient"> <!-- creation d'une classe pour faire le dégradé de couleur, cela fonctionne mais ça n'a pas le rendu attendu -->
+                </div>
+            </section>
+            <section class="section-details">
+                <div class="articles" id="backtobottom">
+                    <div class="article-1" id="article-1">
+                        <div class="column-1">
+                            <div class="number">
+                                <h5>01</h5>
+                            </div>
+                            <div class="description">
+                                <div class="row-1">
+                                    <div class="stroke">
+                                        <img src="assets/icones/stroke.png" alt="yellow horizontal stroke">
+                                    </div>
+                                    <div>
+                                        <h3>get started</h3>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <h2>what level of hiker<span>are you?</span></h2>
+                                </div>
+                                <div class="row-3">
+                                    <p>Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?</p>
+                                </div>
+                                <div class="row-4">
+                                    <a href="#" title="read more about level of Hiker">read more<img src="assets/icones/arrow-yellow.png" alt="yellow arrow to right"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-2">
+                            <img src="assets/images/image-1.png" alt="hiker on a montain trail">
+                        </div>
+                    </div>
+                    <div class="article-2"  id="article-2">
+                        <div class="column-1">
+                            <img src="assets/images/image-2.png" alt="hiker at the top of a montain">
+                        </div>
+                        <div class="column-2">
+                            <div class="number">
+                                <h5>02</h5>
+                            </div>
+                            <div class="description">
+                                <div class="row-1">
+                                    <div class="stroke">
+                                        <img src="assets/icones/stroke.png" alt="yellow horizontal stroke">
+                                    </div>
+                                    <div>
+                                        <h3>hiking essentials</h3>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <h2>picking the right<span>hiking gear!</span></h2>
+                                </div>
+                                <div class="row-3">
+                                    <p>The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
+                                </div>
+                                <div class="row-4">
+                                    <a href="#" title="read more about hiking gear">read more<img src="assets/icones/arrow-yellow.png" alt="yellow arrow to right"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-3"  id="article-3">
+                        <div class="column-1">
+                            <div class="number">
+                                <h5>03</h5>
+                            </div>
+                            <div class="description">
+                                <div class="row-1">
+                                    <div class="stroke">
+                                        <img src="assets/icones/stroke.png" alt="yellow horizontal stroke">
+                                    </div>
+                                    <div>
+                                        <h3>where you go is the key</h3>
+                                    </div>
+                                </div>
+                                <div class="row-2">
+                                    <h2>understand your<span>map & timing</span></h2>
+                                </div>
+                                <div class="row-3">
+                                    <p>To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction..</p>
+                                </div>
+                                <div class="row-4">
+                                    <a href="#" title="read more about hiking guide & map">read more<img src="assets/icones/arrow-yellow.png" alt="yellow arrow to right"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column-2">
+                            <img src="assets/images/image-3.png" alt="a compass in hand">
+                        </div>
+                    </div> 
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="row">
+                <div class="column-1">
+                    <div class="logo">
+                        <img src="assets/images/Logo.png" title="logo of the website">
+                    </div>
+                    <div class="txt">
+                        <p>Get out there & discover your next<span>slope, mountain & destination!</span></p>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy; copright 2023 MNTN, inc. terms & privacy</p>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div>
+                        <h4>more on the blog</h4>
+                    </div>
+                    <div class="link">
+                        <nav>
+                            <ul>
+                                <li><a href="#" title="About MNTN">about MNTN</a></li>
+                                <li><a href="#" title="Contributors">contributors & writers</a></li>
+                                <li><a href="#" title="Write for Us">write for us</a></li>
+                                <li><a href="#" title="Contact">contact us</a></li>
+                                <li><a href="#" title="Privacy Policy">privacy policy</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="column-3">
+                    <div>
+                        <h4>more on MNTN</h4>
+                    </div>
+                    <div class="link">
+                        <nav>
+                            <ul>
+                                <li><a href="#" title="The Team">the team</a></li>
+                                <li><a href="#" title="Jobs">Jobs</a></li>
+                                <li><a href="#" title="Press">Press</a></li>
+                            </ul>
+                        </nav> 
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

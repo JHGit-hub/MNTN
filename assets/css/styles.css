@@ -1,0 +1,278 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    position:relative;
+    background-image: url(../images/background-image.png);
+    background-repeat: no-repeat;
+    background-color: #0B1D26;
+    background-size: 100vw;
+    background-position: top center;
+    width:100%;
+    height:auto;
+}
+
+.gradient::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:50%;
+    background: linear-gradient(to top, rgba(11, 29, 38) 0%, rgba(0 ,0 ,0 ,0) 100%);
+}
+
+
+/*****
+****** HEADER ******
+*****/
+
+
+header{
+    width:100%;
+}
+
+header .row .column-1, header .row .column-2, header .row .column-3{
+    display: inline-block;
+    height:100%;
+}
+
+header .column-1 .logo{
+    height:100%;
+}
+
+header .row .column-1{
+    width:10%;
+}
+
+header .row .column-3{
+    width:7%;
+}
+
+header .row .column-2{
+    width:82%;
+}
+
+
+/********* NAVIGATION *********/
+
+
+nav{
+    text-align: center;
+    height:100%;
+}
+
+header nav li{
+    display: inline-block;
+    margin:0 2.5rem;
+}
+
+nav ul{
+    height:100%;
+    list-style: none;
+}
+
+.navbar{
+    height:100%;
+}
+
+/********* LOGIN *********/
+
+
+.column-3 .CTA{
+    height:100%;
+}
+
+.picto img{
+    width:auto;
+    height:100%;
+    display:inline-block;
+}
+
+.CTA .login{
+    display:inline-block;
+    height:100%;
+    vertical-align: top;
+}
+
+.CTA .picto{
+    display:inline-block;
+    height:100%;
+}
+
+.column-1 .logo img{
+    height:100%;
+    width:auto;
+}
+
+.column-1 .logo{
+    margin:auto;
+}
+
+
+/*****
+****** SECTION BANNER ******
+*****/
+
+.section-banner, .section-banner .banner{
+    width:100%;
+}
+
+/********* container-banner *********/
+
+.gradient{
+    height:60rem;
+    width:100%;
+}
+
+.banner{
+    position:relative;
+}
+
+.container-banner{
+    width:66%;
+    height:19.375rem;
+    margin-left:20.5%;
+}
+
+.social{
+    position:absolute;
+    left:4.5%;
+    top:65%;
+    margin:auto;
+}
+
+.rotated{
+    position:absolute;
+    transform: rotate(90deg);
+    left:3%;
+    top:40%;
+}
+
+.social img{
+    width:24px;
+    height:auto;
+}
+
+/********* ANCHOR *********/
+
+
+.anchor{
+    position:fixed;
+    z-index:100;
+    right:5%;
+    top:40%;
+    text-align: right;
+}
+
+.anchor li{
+    display: block;
+}
+
+
+/*****
+****** SECTION DETAILS ******
+*****/
+
+.articles{
+    width:76%;
+    margin:auto;
+}
+
+.description{
+    width:71%;
+    height:61%;
+    margin:19% 7.8% 19.4% 10.2%;
+}
+
+.article-1, .article-2, .article-3{
+    height:45rem;
+}
+
+.articles .column-1, .articles .column-2{
+    height:100%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.articles .column-1{
+    width:54%;
+}
+
+.articles .column-2{
+    width:45%;
+}
+
+.article-2 .column-1{
+    width:44%;
+}
+
+.article-2 .column-2{
+    width:54%;
+}
+
+.articles h5{
+    position:absolute;
+}
+
+.articles .column-1, .articles .column-2{
+    position:relative;
+}
+
+.article-1, .article-2, .article-3{
+    margin-bottom:12.5rem;
+}
+
+.number{
+    position:absolute;
+    top:0;
+}
+
+/*****
+****** FOOTER ******
+*****/
+
+.copyright{
+    position:absolute;
+    bottom:0;
+}
+
+footer p{
+    text-transform: capitalize;
+    margin:1rem 0;
+}
+
+footer .column-1, footer .column-2, footer .column-3{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2rem;
+}
+
+footer .column-1{
+    width:55%;
+}
+
+footer .column-2, footer .column-3{
+    text-align: left;
+}
+
+footer .column-2{
+    width:29%;   
+}
+
+footer .column-3{
+    width: 15%;
+}
+
+footer nav{
+    text-align: left;
+}
+
+footer nav li{
+    text-align: left;
+    margin:1rem 0;
+}
+

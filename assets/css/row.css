@@ -1,0 +1,81 @@
+/****** MAIN ******/
+
+
+.row{
+    width:91%;
+    margin:auto;
+}
+
+
+.row-1{
+    position:relative;
+}
+
+.row-1 .stroke{
+    width:4.5rem;
+    position:absolute;
+    top:5%;
+}
+
+.row-1 h3{
+    margin-left:6.5rem;
+}
+
+
+/****** HEADER ******/
+
+
+header .row{
+    height:2rem;
+    margin-top:4rem;
+}
+
+
+/****** BANNER ******/
+
+
+.banner .row{
+    position:relative;
+    margin-top:12.375rem;
+}
+
+.container-banner .row-2{
+    margin:2rem 0;
+}
+
+.container-banner .row-3 img{
+    width:16px;
+    height:auto;
+    margin-left:1rem;
+}
+
+
+/****** ARTICLES ******/
+
+
+.description .row-4 a{
+    font-family: "gilfroy", sans-serif;
+    font-size: 1.125rem;
+    color:#FBD784;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.description .row-4 img{
+    width:24px;
+    height:auto;
+    margin-left:1rem;
+}
+
+.description .row-1, .description .row-2, .description .row-3{
+    margin-bottom:1.7rem;
+}
+
+
+/****** FOOTER ******/
+
+
+footer .row{
+    width:76%;
+    position:relative;
+}
